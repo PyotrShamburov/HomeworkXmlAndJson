@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<planet name="Earth">
+    <countries name="England">
+        <cities name="London">
+            <peoples>
+                <age>23</age>
+                <name>Mike</name>
+                <sex>Male</sex>
+            </peoples>
+            <peoples>
+                <age>21</age>
+                <name>Elisa</name>
+                <sex>Female</sex>
+            </peoples>
+        </cities>
+        <cities name="Manchester">
+            <peoples>
+                <age>24</age>
+                <name>Dan</name>
+                <sex>Male</sex>
+            </peoples>
+            <peoples>
+                <age>31</age>
+                <name>Ann</name>
+                <sex>Female</sex>
+            </peoples>
+        </cities>
+    </countries>
+    <countries name="Italy">
+        <cities name="Rome">
+            <peoples>
+                <age>30</age>
+                <name>Louis</name>
+                <sex>Male</sex>
+            </peoples>
+            <peoples>
+                <age>29</age>
+                <name>Elly</name>
+                <sex>Female</sex>
+            </peoples>
+        </cities>
+        <cities name="Milan">
+            <peoples>
+                <age>19</age>
+                <name>John</name>
+                <sex>Male</sex>
+            </peoples>
+            <peoples>
+                <age>13</age>
+                <name>Jessica</name>
+                <sex>Female</sex>
+            </peoples>
+        </cities>
+    </countries>
+    <countries name="Austria">
+        <cities name="Vienna">
+            <peoples>
+                <age>40</age>
+                <name>Michael</name>
+                <sex>Male</sex>
+            </peoples>
+            <peoples>
+                <age>25</age>
+                <name>Natalya</name>
+                <sex>Female</sex>
+            </peoples>
+        </cities>
+        <cities name="Graz">
+            <peoples>
+                <age>36</age>
+                <name>Nicolas</name>
+                <sex>Male</sex>
+            </peoples>
+            <peoples>
+                <age>28</age>
+                <name>Elisabet</name>
+                <sex>Female</sex>
+            </peoples>
+        </cities>
+    </countries>
+</planet>

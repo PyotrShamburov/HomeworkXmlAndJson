@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<carstore>
+    <car category="truck">
+        <title>Scania R 770</title>
+        <year>2005</year>
+        <price>200000.0</price>
+    </car>
+    <car category="sedan">
+        <title>Ford Focus</title>
+        <year>2012</year>
+        <price>20000.0</price>
+    </car>
+    <car category="sport">
+        <title>Ferrari 360 Spider</title>
+        <year>2018</year>
+        <price>150000.0</price>
+    </car>
+    <motorcycle>
+        <title>Yamaha YZF-R6</title>
+        <year>2018</year>
+        <price>1000000.0</price>
+    </motorcycle>
+    <motorcycle>
+        <title>Harley Davidson Sportster 1200</title>
+        <year>2011</year>
+        <price>15000.0</price>
+    </motorcycle>
+</carstore>
