@@ -1,6 +1,7 @@
 package AutoStore;
 
 import javax.xml.bind.annotation.XmlElement;
+import javax.xml.bind.annotation.XmlElementWrapper;
 import javax.xml.bind.annotation.XmlRootElement;
 import java.util.ArrayList;
 import java.util.List;
@@ -13,6 +14,7 @@ public class CarStore {
     public CarStore() {
     }
 
+    @XmlElementWrapper(name = "cars")
     @XmlElement(name = "car")
     public List<Car> getCars() {
         return cars;
@@ -22,6 +24,7 @@ public class CarStore {
         this.cars = cars;
     }
 
+    @XmlElementWrapper(name = "motorcycles")
     @XmlElement(name = "motorcycle")
     public List<Motorcycle> getMotorcycles() {
         return motorcycles;

@@ -3,6 +3,7 @@ package AutoStore;
 import com.sun.xml.internal.txw2.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlAttribute;
 
+import javax.xml.bind.annotation.XmlElementWrapper;
 import javax.xml.bind.annotation.XmlType;
 
 @XmlType(propOrder = {"title","year","price"})

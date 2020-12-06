@@ -1,13 +1,12 @@
 package Planet;
 
-import com.sun.xml.internal.txw2.annotation.XmlElement;
-
 
 import javax.xml.bind.annotation.XmlAttribute;
+import javax.xml.bind.annotation.XmlElement;
 import java.util.ArrayList;
 import java.util.List;
 
-@XmlElement
+
 public class Country {
     private String name;
     private List<City> cities = new ArrayList<City>();
@@ -18,6 +17,7 @@ public class Country {
     public Country(String name) {
         this.name = name;
     }
+
     @XmlAttribute(name = "name")
     public String getName() {
         return name;
@@ -26,7 +26,8 @@ public class Country {
     public void setName(String name) {
         this.name = name;
     }
-  @XmlElement
+
+    @XmlElement(name = "city")
     public List<City> getCities() {
         return cities;
     }

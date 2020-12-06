@@ -2,6 +2,7 @@ package Planet;
 
 import javax.xml.bind.annotation.XmlAttribute;
 import javax.xml.bind.annotation.XmlElement;
+import javax.xml.bind.annotation.XmlElementWrapper;
 import javax.xml.bind.annotation.XmlRootElement;
 import java.util.ArrayList;
 import java.util.List;
@@ -25,7 +26,9 @@ public class Planet {
     public void setName(String name) {
         this.name = name;
     }
-@XmlElement
+
+    @XmlElementWrapper(name = "countries")
+    @XmlElement(name = "country")
     public List<Country> getCountries() {
         return countries;
     }

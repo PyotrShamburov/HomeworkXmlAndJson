@@ -1,9 +1,10 @@
 package Planet;
 
-import com.sun.xml.internal.txw2.annotation.XmlAttribute;
 import com.sun.xml.internal.txw2.annotation.XmlElement;
 
-@XmlElement
+import javax.xml.bind.annotation.XmlType;
+
+@XmlType(propOrder = {"name","sex","age"})
 public class Person {
     private String name;
     private int age;
@@ -17,7 +18,8 @@ public class Person {
 
     public Person() {
     }
-@XmlElement
+
+    @XmlElement
     public String getName() {
         return name;
     }
@@ -25,7 +27,8 @@ public class Person {
     public void setName(String name) {
         this.name = name;
     }
-@XmlElement
+
+    @XmlElement
     public int getAge() {
         return age;
     }
@@ -33,7 +36,8 @@ public class Person {
     public void setAge(int age) {
         this.age = age;
     }
-@XmlElement
+
+    @XmlElement
     public String getSex() {
         return sex;
     }
